@@ -84,14 +84,14 @@ const RedisStore = ConnectRedis(session);
     ...modules
   ],
   providers: [
-    {
-      provide: APP_GUARD,
-      useClass: AuthGuard
-    },
-    {
-      provide: APP_GUARD,
-      useClass: ResourceGuard
-    }
+    // {
+    //   provide: APP_GUARD,
+    //   useClass: AuthGuard
+    // },
+    // {
+    //   provide: APP_GUARD,
+    //   useClass: ResourceGuard
+    // }
   ],
   exports: [KeycloakModule, PrismaModule]
 })

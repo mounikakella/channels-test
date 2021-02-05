@@ -6,26 +6,21 @@
 
 Please ★ this repo if you found it useful ★ ★ ★
 
-
 ## Usage
 
 [Contribute](https://github.com/mounica/channel-api-new/blob/master/CONTRIBUTING.md) usage docs
-
 
 ## Support
 
 Submit an [issue](https://github.com/mounica/channel-api-new/issues/new)
 
-
 ## Screenshots
 
 [Contribute](https://github.com/mounica/channel-api-new/blob/master/CONTRIBUTING.md) a screenshot
 
-
 ## Contributing
 
 Review the [guidelines for contributing](https://github.com/mounica/channel-api-new/blob/master/CONTRIBUTING.md)
-
 
 ## License
 
@@ -33,16 +28,13 @@ Review the [guidelines for contributing](https://github.com/mounica/channel-api-
 
 [Ravi](https://mounica.com) © 2021
 
-
 ## Changelog
 
 Review the [changelog](https://github.com/mounica/channel-api-new/blob/master/CHANGELOG.md)
 
-
 ## Credits
 
-* [Ravi](https://mounica.com) - Author
-
+- [Ravi](https://mounica.com) - Author
 
 ## Support on Liberapay
 

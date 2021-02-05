@@ -25,7 +25,18 @@ model User {
   role      Role
 }
 
+model Login {
+  id       String    @id @default(cuid())
+  kcUserId String    @unique
+  type     Type
+}
+
 enum Role {
   ADMIN
   USER
+}
+
+enum Type {
+  USER
+  CHANNEL
 }
