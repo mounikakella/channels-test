@@ -1,0 +1,42 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../node_modules/@prisma/generated"
+  binaryTargets = ["native"]
+}
+
+generator typegraphql {
+  provider = "../node_modules/typegraphql-prisma/generator.js"
+  output   = "../src/generated/typegraphql"
+}
+
+datasource db {
+  provider = "postgresql"
+  url = "***"
+}
+
+model User {
+  id        String   @default(cuid()) @id
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  email     String   @unique
+  password  String
+  firstname String?
+  lastname  String?
+  role      Role
+}
+
+model Login {
+  id       String    @id @default(cuid())
+  kcUserId String    @unique
+  type     Type
+}
+
+enum Role {
+  ADMIN
+  USER
+}
+
+enum Type {
+  USER
+  CHANNEL
+}
